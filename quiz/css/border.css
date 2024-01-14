@@ -1,6 +1,8 @@
 /* Add a border around the image */
 .image-with-border {
-    /* Border style: thick, solid line, color purple */
+    Border-style: solid;
+    border-width: 20px;
+    color: purple;
     border-radius: 5px; /* Optional: Add rounded corners for a softer look */
   }
 
@@ -9,5 +11,6 @@
   }
 
   .caption {
-      /* Red color in italics */
+     color: red;
+     font-style: italic;
   }
